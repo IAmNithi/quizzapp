@@ -72,6 +72,10 @@ export class Main extends Component {
   back() {
     this.setState({
       score: 0,
+      Question1: '',
+      Question2: '',
+      Question3: '',
+      Question4: '',
       result: false
     })
   }
